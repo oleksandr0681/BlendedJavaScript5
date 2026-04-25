@@ -14,3 +14,8 @@
       <p>Текст</p>
   </li>
 */
+
+import { handleHeaderFormSubmit } from './js/handlers';
+import { refs } from './js/refs';
+
+refs.headerForm.addEventListener('submit', handleHeaderFormSubmit);
